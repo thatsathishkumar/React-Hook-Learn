@@ -1,0 +1,33 @@
+.PostMain {
+  margin: 100px auto;
+  height: 100%;
+  width: 90%;
+  display: flex;
+  border: 10px black solid;
+}
+
+.computer {
+  background-color: chartreuse;
+  height: 3em;
+  width: 4em;
+}
+.pipe {
+  background-color: rgb(0, 68, 255);
+  height: 6em;
+  width: 16em;
+}
+.rightPipe {
+  background-color: rgb(255, 0, 55);
+  height: 2em;
+  width: 2em;
+}
+.leftPipe {
+  background-color: rgb(255, 145, 0);
+  height: 2em;
+  width: 2em;
+}
+.server {
+  background-color: rgb(247, 0, 255);
+  height: 6em;
+  width: 16em;
+}

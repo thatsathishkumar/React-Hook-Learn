@@ -1,0 +1,53 @@
+.caroussalrun {
+  margin: 100px auto;
+  border: 1px solid black;
+  display: flex;
+  width: 50%;
+  overflow-x: auto;
+}
+.caroussalstop {
+  margin: 100px auto;
+  border: 1px solid black;
+  display: flex;
+  width: 50%;
+  overflow-x: hidden;
+}
+.caroussal::-webkit-scrollbar {
+  display: none;
+}
+.groupcaroussalrun {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: spin 5s infinite linear;
+}
+.groupcaroussalstop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: spin 0s infinite linear;
+}
+
+.carBody {
+  z-index: 999;
+  top: 25em;
+  left: 30%;
+  position: relative;
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+.cardCarousal {
+  flex: 0 0 3em;
+  align-content: center;
+  height: 25em;
+  width: 10em;
+}
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
