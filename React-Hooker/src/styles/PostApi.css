@@ -23,7 +23,7 @@
   background-color: rgb(255, 0, 55);
   height: 4em;
   width: 4em;
-  animation: spin 3s infinite linear;
+  animation: spin 1s infinite linear;
   margin-left: 20em;
 }
 .leftPipe {
@@ -31,7 +31,7 @@
   height: 4em;
   width: 4em;
   /* margin-inline-end: 35em; */
-  animation: spin 3s infinite reverse linear;
+  animation: spin 1s infinite reverse linear;
   /* /* margin-left: 15em; */
   margin-top: 5em;
 }
@@ -52,6 +52,10 @@
   background-color: rgb(247, 0, 255);
   height: 10em;
   width: 16em;
+}
+
+.boxTable {
+  margin-inline: 30%;
 }
 keyframes rightspin {
   from {

@@ -7,6 +7,7 @@ import carplace3 from "../../public/images/CarGame/carplace3.png";
 import carplace4 from "../../public/images/CarGame/carplace4.png";
 import mrbeanCar from "../../public/images/CarGame/mrbeanCar.png";
 
+
 const CarGameComponent = (): React.JSX.Element => {
   const [startCar, setstartCar] = useState<boolean>(false);
   const [backimg, setbackimg] = useState<number>(0);
