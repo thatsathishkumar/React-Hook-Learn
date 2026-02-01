@@ -1,33 +1,63 @@
 .PostMain {
   margin: 100px auto;
   height: 100%;
-  width: 90%;
+  width: 60%;
   display: flex;
   border: 10px black solid;
 }
 
 .computer {
   background-color: chartreuse;
-  height: 3em;
-  width: 4em;
+  height: 8em;
+  width: 14em;
+  margin: auto;
 }
 .pipe {
-  background-color: rgb(0, 68, 255);
-  height: 6em;
-  width: 16em;
+  background-color: rgb(199, 207, 228);
+  height: auto;
+  width: 50em;
+  display: flex;
+  /* position: inherit; */
 }
 .rightPipe {
   background-color: rgb(255, 0, 55);
-  height: 2em;
-  width: 2em;
+  height: 4em;
+  width: 4em;
+  animation: spin 3s infinite linear;
+  margin-left: 20em;
 }
 .leftPipe {
   background-color: rgb(255, 145, 0);
-  height: 2em;
-  width: 2em;
+  height: 4em;
+  width: 4em;
+  /* margin-inline-end: 35em; */
+  animation: spin 3s infinite reverse linear;
+  /* /* margin-left: 15em; */
+  margin-top: 5em;
+}
+
+.rightPipestop {
+  background-color: rgb(255, 0, 55);
+  height: 4em;
+  width: 4em;
+  margin-left: 20em;
+}
+.leftPipestop {
+  background-color: rgb(255, 145, 0);
+  height: 4em;
+  width: 4em;
+  margin-top: 5em;
 }
 .server {
   background-color: rgb(247, 0, 255);
-  height: 6em;
+  height: 10em;
   width: 16em;
+}
+keyframes rightspin {
+  from {
+    translate: 500%;
+  }
+  to {
+    translate: -500%;
+  }
 }
